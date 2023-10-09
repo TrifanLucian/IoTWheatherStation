@@ -1,23 +1,20 @@
 # IoTWheatherStation
-IoT Project 
-Acest Proiect reprezinta o statie meteo pentru care am folosit urmatoarele:
-    - placa breadboard
-    - plata arduino "arduino-mkr-wifi-1010" cu modul WiFi pentru conectivitate la retelele WiFi
-    - senzor de temperatura si umiditate DHT11
-    - Senzor de presiune atmosferica  BMP280
-    - Fire Jumper
+This project represents a weather station for which I used the following:
+    - breadboard
+    - arduino board "arduino-mkr-wifi-1010" with WiFi module for connectivity to WiFi networks
+    - DHT11 temperature and humidity sensor
+    - BMP280 atmospheric pressure sensor
+    - Jumper wires
 
-S-a folosit mediul de dezvoltare Arduino IDE 2.0.5 pentru incarcarea programelor si conectarea/comunicarea cu placa electronica.
-Cu ajutorul bibliotecilor disponibile se realizeaza:
-  - comunicatia seriala
-  - comunicatia wireless
-  - citirea si transmiterea pe seriala a parametrilor de temperatura, umiditate si presiune.
-  - conectarea la serverul AwardSpace direct din placa electronica prin intermediul antenei WiFi
-        - AwardSpace ofera gazduire web gratuita cu PHP si MYSQL
-  - http request cu metoda GET direct din placa electronica pentru scrierea parametrilor in baza de date ( se scrie la fiecare 10 secunde )
+The Arduino IDE 2.0.5 development environment was used to load the programs and connect/communicate with the electronic board. With the help of the available libraries it was achieved
+    - serial communication
+    - wireless communication
+    - reading and serial transmission of temperature, humidity and pressure parameters.
+    - connecting to the AwardSpace server directly from the electronic board via the WiFi antenna 
+        - AwardSpace offers free web hosting with PHP and MYSQL
+    - http request with the GET method directly from the electronic board for writing the parameters in the database (written every 10 seconds)
 
-A fost creat un site WEB pentru afisarea/citirea informatiilor din baza de date ( ultimele 10 inregistrari ) 
-Informatiile privind temperatura, umiditatea si presiunea sunt afisate intr-o forma tabelata. Totodata s-a folosit un script JS pentru afisarea acestor date sub forma de ceasuri pentru o interfata mai prietenoasa.
+A WEB site was created for displaying/reading the information from the database (the last 10 records). The information regarding temperature, humidity and pressure is displayed in a tabular form. At the same time, a JS script was used to display these data in the form of clocks for a friendlier interface.
 
 
 ![Serial Monitor + Site](https://github.com/TrifanLucian/IoTWheatherStation/assets/111199896/fcf51438-ab5e-414b-8d56-3efc2e83e63f)
