@@ -6,8 +6,6 @@ Acest Proiect reprezinta o statie meteo pentru care am folosit urmatoarele:
     - senzor de temperatura si umiditate DHT11
     - Senzor de presiune atmosferica  BMP280
     - Fire Jumper
-    
-![Poza placa](https://github.com/TrifanLucian/IoTWheatherStation/assets/111199896/dacf0975-da27-42c5-9fef-ec7f3f5987fc)
 
 S-a folosit mediul de dezvoltare Arduino IDE 2.0.5 pentru incarcarea programelor si conectarea/comunicarea cu placa electronica.
 Cu ajutorul bibliotecilor disponibile se realizeaza:
@@ -28,3 +26,4 @@ Informatiile privind temperatura, umiditatea si presiunea sunt afisate intr-o fo
 
 ![AwardSpace](https://github.com/TrifanLucian/IoTWheatherStation/assets/111199896/452f3554-3426-4b70-91d6-1e70630c51d4)
 
+![Poza placa](https://github.com/TrifanLucian/IoTWheatherStation/assets/111199896/dacf0975-da27-42c5-9fef-ec7f3f5987fc)
